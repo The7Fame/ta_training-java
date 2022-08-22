@@ -1,1 +1,1 @@
-#QA Automated Testing Course By EPAM
+# QA Automated Testing Course By EPAM
