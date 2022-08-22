@@ -1,0 +1,11 @@
+page\google\calculator\EmailBlock.class
+page\google\GoogleHome.class
+tests\MainTest.class
+page\google\calculator\CheckBlock.class
+page\google\calculator\FillBlock.class
+page\google\GooglePricing.class
+tests\BaseTest.class
+page\AbstractPage.class
+page\google\GoogleResult.class
+page\Switcher.class
+page\mail\FakeMailPage.class
