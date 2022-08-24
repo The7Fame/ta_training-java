@@ -19,7 +19,6 @@ public class CalculatorPage extends AbstractPage {
 
     public CalculatorPage(WebDriver driver) {
         super(driver);
-        PageFactory.initElements(this.driver,this);
     }
 
     public CalculatorPage openPage() {
