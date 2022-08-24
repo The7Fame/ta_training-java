@@ -24,7 +24,6 @@ public class MainPage extends AbstractPage {
 
     public MainPage(WebDriver driver) {
         super(driver);
-        PageFactory.initElements(this.driver,this);
     }
 
     public MainPage openPage() {
