@@ -21,7 +21,6 @@ public class MainPage extends AbstractPage {
     @FindBy(xpath = "//input[@aria-label='Search']")
     private WebElement searchInput;
 
-
     public MainPage(WebDriver driver) {
         super(driver);
     }
