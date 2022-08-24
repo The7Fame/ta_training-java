@@ -18,7 +18,6 @@ public class MailPage extends AbstractPage {
 
     public MailPage(WebDriver driver) {
         super(driver);
-        PageFactory.initElements(this.driver,this);
     }
     public MailPage openPage() {
         driver.navigate().to(PAGE_URL);
