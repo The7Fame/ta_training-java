@@ -28,7 +28,6 @@ public class CheckMail extends AbstractPage {
 
     public CheckMail(WebDriver driver) {
         super(driver);
-        PageFactory.initElements(this.driver,this);
     }
 
     public CheckMail openPage() {
