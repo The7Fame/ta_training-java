@@ -20,7 +20,6 @@ public class GenerateMail extends AbstractPage {
 
     public GenerateMail(WebDriver driver) {
         super(driver);
-        PageFactory.initElements(this.driver,this);
     }
     public GenerateMail openPage() {
         driver.navigate().to(PAGE_URL);
