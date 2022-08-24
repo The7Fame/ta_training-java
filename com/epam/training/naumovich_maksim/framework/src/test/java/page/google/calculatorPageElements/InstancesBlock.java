@@ -89,7 +89,7 @@ public class InstancesBlock extends AbstractPage {
     }
 
     private InstancesBlock chooseOsOption(String osOptionName){
-        By osOptionsLocator = By.xpath(String.format(OS_OPTION_XPATH,osOptionName)); // пересмотреть
+        By osOptionsLocator = By.xpath(String.format(OS_OPTION_XPATH,osOptionName));
         chooseMenu(operationSystemSoftwareMenuLocator,osOptionsLocator);
         return this;
     }
